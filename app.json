@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "mp-app",
-    "slug": "mp-app",
+    "name": "Casa Inteligente",
+    "slug": "Casa-Inteligente",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f3f6ff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +21,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#f3f6ff"
+      },
+      "package": "com.viniciusprogramer.CasaInteligente"
     },
     "web": {
       "favicon": "./assets/favicon.png"
